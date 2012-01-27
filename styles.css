@@ -3,7 +3,47 @@
     padding-bottom: 10px;
 }
 
+    .kent_course_list_archive_top .archive_link a, .kent_course_list_archive_top .archive_link a:visited {
+        width: auto;
+        padding: 6px;
+        background: transparent;
+        font-size: 12px;
+        font-weight: bold;
+        color: #6f6f6f;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        -webkit-transition: background-color .4s linear;
+        -moz-transition: background-color .4s linear;
+        -o-transition: background-color .4s linear;
+        transition: background-color .4s linear;
+    }
+    
+    .kent_course_list_archive_top .archive_link a:hover {
+            background: #E6E6E6;
+    }
+
 .kent_course_list_archive_bottom{
     display: block;
     padding-top: 10px;
 }
+
+    .kent_course_list_archive_bottom .archive_link a, .kent_course_list_archive_bottom .archive_link a:visited {
+            width: auto;
+            padding: 6px;
+            background: transparent;
+            font-size: 12px;
+            font-weight: bold;
+            color: #6f6f6f;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+            -webkit-transition: background-color .4s linear;
+            -moz-transition: background-color .4s linear;
+            -o-transition: background-color .4s linear;
+            transition: background-color .4s linear;
+     }
+        
+    .kent_course_list_archive_bottom .archive_link a:hover {
+            background: #E6E6E6;
+    }

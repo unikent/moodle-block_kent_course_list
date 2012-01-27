@@ -43,7 +43,7 @@ class block_kent_course_list extends block_course_list {
 
             //Or... provide link back to Archive Moodle if switched on
             if (!kent_is_archive_moodle()){
-                $render_link = '<span class="kent_course_list_archive_bottom">&raquo; '.kent_archive_moodle_link().'</span>';
+                $render_link = '<span class="kent_course_list_archive_bottom">'.kent_archive_moodle_link().'</span>';
                 array_push($output->items, $render_link);
             }
         }
