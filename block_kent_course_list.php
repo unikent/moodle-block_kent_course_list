@@ -7,7 +7,7 @@ require_once($CFG->dirroot . '/blocks/kent_course_overview/lib.php'); //Leverage
 class block_kent_course_list extends block_course_list {
 
     function init() {
-        $this->title = get_string('pluginname', 'block_kent_course_list');
+        $this->title = get_string('blocktitle', 'block_kent_course_list');
     }
 
     function has_config() {
