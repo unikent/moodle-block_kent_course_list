@@ -11,7 +11,7 @@ class block_kent_course_list extends block_course_list {
     }
 
     function has_config() {
-        return true;
+        return false;
     }
 
     function get_content() {
