@@ -28,7 +28,7 @@ class block_kent_course_list extends block_course_list {
 
                 $link_text = (kent_is_archive_moodle() ? get_string('archive_moodle_old_text','block_kent_course_list') : get_string('archive_moodle_current_text','block_kent_course_list'));
 
-                if (has_capability('moodle/course:update', get_context_instance(CONTEXT_SYSTEM)) || empty($CFG->block_course_list_hideallcourseslink)) {
+                if (has_capability('moodle/course:update', context_system::instance()) || empty($CFG->block_course_list_hideallcourseslink)) {
                     $output->footer = "<a href=\"$CFG->wwwroot/course/index.php\">".$link_text.'</a> ...';
                 }
             }
